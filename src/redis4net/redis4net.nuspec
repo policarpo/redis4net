@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+	<id>redis4net</id>
+	<version>1.0.0</version>
+	<authors>Govin</authors>
+	<owners>Govin</owners>
+	<licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+	<projectUrl>https://github.com/govin/redis4net</projectUrl>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<description>redis4net is a log4net appender that formats logs and adds them to redis lists. This is useful when you have another system like logstash which indexes yours logs. The redis lists that you write to can feed into the logstash indexer.</description>
+	<dependencies>
+		<dependency id="Newtonsoft.Json" version="[6.0.8]"></dependency>
+		<dependency id="log4net" version="[2.0.3]"></dependency>
+		<dependency id="StackExchange.Redis" verions=["1.0.414"]></dependency>
+	</dependencies>
+	<releaseNotes>Initial release</releaseNotes>
+	<copyright>Copyright 2015 govin</copyright>
+	<tags>redis log4net</tags>
+	</metadata>
+</package>
